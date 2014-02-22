@@ -7,8 +7,8 @@ return array(
 	'default' => array(
 		'connection'  => array(
 			'dsn'        => 'mysql:host=127.0.0.1;dbname=hour',
-			'username'   => 'root',
-			'password'   => '',
+			'username'   => 'hour',
+			'password'   => 'hour',
 		),
 	),
 );
