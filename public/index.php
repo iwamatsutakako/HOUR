@@ -50,7 +50,7 @@ try
 }
 catch (HttpNotFoundException $e)
 {
-	\Request::reset_request(true);
+	_Request::reset_request(true);
 
 	$route = array_key_exists('_404_', Router::$routes) ? Router::$routes['_404_']->translation : Config::get('routes._404_');
 
